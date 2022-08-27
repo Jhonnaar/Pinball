@@ -1,0 +1,79 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Player Map",
+            "id": "67b60b05-8f4d-4ca3-b073-a299ab39a159",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "7b447cca-1994-4018-a3c8-455756b83923",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "86a6a888-52be-408f-ab64-4107791317f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "12bcacac-647f-47e9-83d6-195fd3f9a514",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8206202-35f2-4cc3-8716-95376762662f",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Start Map",
+            "id": "bfd0a6e4-87f1-4fd5-be3f-9d0b3a748866",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "67ea3d1f-4d3a-4ded-8bf7-858e962dd5d2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2c9690da-a21f-494f-b72a-056ccc0b8cc8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
